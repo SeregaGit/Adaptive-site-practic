@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main_wrap{
+    width: 640px;
+    margin: 0 auto;
+
+}
+.wrapper{
+    text-align: center;
+}
+
+
+.height_change{
+    height: 75px;
+}
+.logo_text{
+    display: inline-block;
+    font-size: 40px;
+
+    font-family: 'Myriad Pro', serif;
+    margin-top: 10px;
+
+    vertical-align: top;
+}
+.menu{
+    float: right;
+    text-decoration: none;
+
+    font-size: 35px;
+    color: white;
+    padding: 7px;
+    background-color: #5094f2;
+
+    border-radius: 5px;
+    border: 1px solid white;
+
+    margin-top: 15px;
+
+}
+
+
+
+
+ul.nav li ul, input {
+    display: none;
+}
+
+ul.nav li input:checked + label + ul {
+    display: inline-block;
+}
+
+.nav{
+    list-style: none;
+
+    display: inline-block;
+    float: right;
+}
+.list_drop_menu {
+    list-style: none;
+    position: absolute;
+    margin-top: 70px;
+
+
+}
+
+.link{
+    text-decoration: none;
+
+    font-size: 20px;
+    font-family: 'Myriad Pro', serif;
+    font-weight: 300;
+    color: darkgray;
+
+    background: white;
+
+}
+
+
+
+
+
+
+.sign_up_block{
+
+    background-image: url("../img_minimal/main_background.jpg");
+    height: 335px;
+    background-size: contain;
+
+    background-repeat: no-repeat;
+}
+.phone{
+    display: inline-block;
+    background-image: url("../img_minimal/phone_img.png");
+    height: 217px;
+    width: 177px;
+    background-repeat: no-repeat;
+
+    margin: 40px 0 0 15px;
+
+    float: left;
+}
+
+.big_size_part{
+    font-size: 35px;
+    font-family: 'Myriad Pro', serif;
+
+
+}
+.text_sign_up{
+    font-size: 25px;
+    font-family: 'Myriad Pro', serif;
+    width: 383px;
+    line-height: 2;
+
+    margin: 40px 0;
+}
+
+.sign_up{
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    margin-left: 65px;
+}
+
+
+.value_button{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #5094f2;
+    font-size: 30px;
+    padding: 5px;
+    padding-bottom: 13px;
+
+    background-color: #5094f2;
+
+    font-family: 'Myriad Pro', serif;
+
+
+
+}
+.label_drop_menu{
+    float: right;
+    text-decoration: none;
+
+    font-size: 35px;
+    color: white;
+    padding: 7px;
+    background-color: #5094f2;
+
+    border-radius: 5px;
+    border: 1px solid white;
+
+    margin-top: 15px;
+}
+
+
+
+
+
+
+.style_for_icons{
+    display: inline-block;
+    position: relative;
+
+    float: left;
+
+    border: 1px solid #5094f2;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+
+    background-color: #5094f2;
+
+    margin: 30px 20px;
+
+
+
+}
+
+.style_for_icons_mod_screen{
+    border: 1px solid red;
+    background-color: red;
+}
+.style_for_icons_mod_cart{
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
+
+.icon_style_pencil{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+
+    top: 35px;
+    left: 40px;
+
+
+}
+.icon_style{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+
+    top: 30px;
+    left: 35px;
+}
+.h3_for_blocks{
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 34px;
+    font-family: 'Myriad Pro', serif;
+    font-weight: 300;
+    color: #5094f2;
+}
+.p_for_blocks{
+    display: inline-block;
+
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Myriad Pro', serif;
+    font-weight: 300;
+    color: darkgray;
+
+    width: 336px;
+}
+
+
+.cart_img{
+    background-image: url("../img/shoping_cart.png");
+    height: 149px;
+    width: 209px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+
+    margin: 35px 35px;
+}
+
+.border_bottom{
+    border-bottom: 1px solid gainsboro;
+}
+
+.h2_shoping_cart{
+
+    color: dimgray;
+    margin-top: 35px;
+
+    font-size: 34px;
+    font-family: 'Myriad Pro', serif;
+    font-weight: 300;
+}
+
+.h2_shoping_cart_mod{
+    text-align: left;
+    margin: 0 0 35px 0;
+}
+.p_text_allign {
+    text-align: left;
+    line-height: 2;
+    width: 589px;
+}
+
+.test{
+    display: inline-block;
+}
+
+
+
+
+
+.p_for_blocks_mod{
+    display: inline-block;
+    margin: 30px 30px;
+    font-size: 15px;
+    font-family: 'Myriad Pro', serif;
+    font-weight: 300;
+    width: 385px;
+
+
+}
+
+
+
+
+
+
+
+.list{display: none}
+
+
+
+
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.wrapper_1024{
+    text-align: center;
+}
+
+
+@media screen and (min-width: 1024px){
+
+    .main_wrap {
+        width: 1024px;
+        text-align: left;
+    }
+
+    .icon-dehaze{display: none}
+    .nav{display: none}
+    .list{
+        float: right;
+        display: inline;
+        list-style: none;
+
+        margin: 35px 70px
+    }
+    .link{
+        text-decoration: none;
+
+        font-size: 20px;
+        font-family: 'Myriad Pro', serif;
+        font-weight: 300;
+        color: darkgray;
+
+        padding: 0 10px 15px 10px;
+        background: none;
+        transition: .2s;
+    }
+
+    .link:hover{border-bottom: 3px solid #5094f2;}
+
+    .list_point{
+        display: inline-block;
+    }
+    .sign_up_block{
+
+        background-image: url("../img/main_background.jpg");
+        height: 535px;
+        background-size: contain;
+
+        background-repeat: no-repeat;
+    }
+    .phone{
+        display: inline-block;
+        background-image: url("../img/iPhone_pic.png");
+        height: 425px;
+        width: 345px;
+        background-repeat: no-repeat;
+
+        margin: 40px 0 0 15px;
+
+        float: left;
+    }
+    .border_bottom{
+        display: none;
+    }
+    .border_bottom_mod{
+        border-bottom: 1px solid gainsboro;
+    }
+    .style_for_icons{
+        float: none;
+        display: inline-block;
+
+    }
+    .pencil_block{
+        display: inline-block;
+        text-align: center;
+
+
+    }
+    .screen_block{
+        display: inline-block;
+        text-align: center;
+    }
+    .cart_block{
+        display: inline-block;
+        text-align: center;
+    }
+    .h3_for_blocks{
+        display: block;
+        margin: 0;
+    }
+    .p_for_blocks{display: inline-block}
+
+
+    .border_bottom{
+        border-bottom: none;
+    }
+
+
+    .big_size_part{
+    font-size: 53px
+    }
+
+    .text_sign_up {
+        font-size: 35px;
+        font-family: 'Myriad Pro', serif;
+        width: 500px;
+        line-height: 2;
+        margin: 40px 0;
+    }
+
+    .shoping_cart_block{
+        display: block;
+    }
+    .h2_shoping_cart{
+
+        font-size: 42px;
+        margin-top: 90px;
+    }
+    .cart_img{
+
+        vertical-align: top;
+        background-image: url("../img/shoping_cart.png");
+        height: 274px;
+        width: 357px;
+        background-repeat: no-repeat;
+
+        display: inline-block;
+
+        margin: 100px 35px;
+    }
+    .test{
+        display: inline-block;
+    }
+
+
+
+
+
+}
+

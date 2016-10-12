@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?b3hd6s');
+  src:  url('../fonts/icomoon.eot?b3hd6s#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?b3hd6s') format('truetype'),
+    url('../fonts/icomoon.woff?b3hd6s') format('woff'),
+    url('../fonts/icomoon.svg?b3hd6s#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Shop_Cart:before {
+  content: "\e900";
+
+
+}
+.icon-Pencil:before {
+  content: "\e901";
+
+
+
+
+
+}
+.icon-desktop_windows:before {
+  content: "\e30c";
+
+}
+.icon-dehaze:before {
+  content: "\e3c7";
+
+
+}
+
+
+.icon-quotes-left:before {
+  content: "\e977";
+
+  font-size: 30px;
+  border: 1px solid #5094f2;
+  color: white;
+  background-color: #5094f2;
+  padding: 7px;
+  border-radius: 50%;
+
+}
+.icon-checkmark:before {
+  content: "\ea10";
+
+  font-size: 20px;
+
+  color: #5094f2;
+  border: 1px solid white;
+  padding: 5px;
+  background-color: white;
+  border-radius: 100%;
+}
+
